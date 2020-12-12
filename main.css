@@ -1,9 +1,66 @@
-body{
-    background-color: black;
-}
+
 .LandingSection{
     color: white;
     background-color: black;
-    margin: 10%;
+  
+}
 
+.main-menu{
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.inner-menu{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.inner-menu ul{
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    
+}
+
+.inner-menu ul li{
+    float: none;
+    display: inline-block;
+}
+.inner-menu ul li:nth-child(1){
+    float: left;
+}
+.inner-menu ul li:nth-child(2){
+    float: left;
+}
+
+
+.inner-menu li a{
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.inner-menu li a:hover{
+   color:gold;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    margin-left:  -50px;;
+    top: 0%;
+    
+}
+.logo img{
+    width: 100px;
+    height: 82px;
+    z-index: 1;
 }
