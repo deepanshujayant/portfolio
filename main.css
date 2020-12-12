@@ -4,68 +4,60 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.navbar a{
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.navbar a:hover{
+    color: gold;
+}
+.navbar-header{
+    position: relative;
+    left: 10%;
+    text-align: center;
+    top: 0%;
+    margin-left: -5px;
+}
+#navstyle li{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width: 600px){
+    .navbar-nav{
+        float: none;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar-nav li{
+        display: inline-block;
+        float: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .navbar-nav{
+        float: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar-nav li{
+        display: inline-block;
+        float: left;
+    }
+}
+
 .LandingSection{
     color: white;
     background-color: black;
   
-}
-
-.main-menu{
-    width: 100%;
-    background-color: black;
-    position: relative;
-}
-
-.inner-menu{
-    margin: 0 auto;
-    width: 50%;
-}
-
-.inner-menu ul{
-    list-style-type: none;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    overflow: hidden;
-    
-}
-
-.inner-menu ul li{
-    float: none;
-    display: inline-block;
-}
-.inner-menu ul li:nth-child(1){
-    float: left;
-}
-.inner-menu ul li:nth-child(2){
-    float: left;
-}
-
-
-.inner-menu li a{
-    color:white;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-}
-
-.inner-menu li a:hover{
-   color:gold;
-}
-.logo{
-    position: absolute;
-    left: 50%;
-    text-align: center;
-    margin-left:  -50px;;
-    top: 0%;
-    
-}
-.logo img{
-    width: 100px;
-    height: 82px;
-    z-index: 1;
 }
