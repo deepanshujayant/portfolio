@@ -85,8 +85,46 @@
 .banner-text{
     padding: 0;
     margin:  auto ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner-text h1:hover{
+    color: gold;;
 }
 .banner-img{
     margin-left: auto;
     margin-right: 0;
+}
+.social-links {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.social-links ul{
+    list-style-type: none;
+}
+.social-links ul li{
+    display: inline-block;
+}
+.social-links a{
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color:white;
+}
+#insta a:hover{
+     color: #bc2a8d	;
+}
+#github a:hover{
+    color: #F4CBB2;
+}
+#facebook a:hover{
+    color: #4267B2;
+}
+#linkedin a:hover{
+    color: #0e76a8;
+}
+#twitter a:hover{
+    color: #00acee;
 }
