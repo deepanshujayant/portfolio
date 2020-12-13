@@ -24,9 +24,7 @@ html{
 .navbar a:hover{
     color: gold;
 }
-.navbar-brand{
-   margin-right: 0;
-}
+
 
 .navbar-toggler-icon{
     background-color: gray;
@@ -41,8 +39,9 @@ html{
     background-size: cover;
     background-position: center;
     padding: 30px;
+    
     height: fit-content;
-    margin-top: 0;
+    
 }
 .LandingSection h1, h4{
     font-family: 'Handlee', cursive;
@@ -62,12 +61,7 @@ html{
 
     color: gold;;
 }
-.btn{
-    font-family: 'Handlee';
-    font-size: 15px;
-    color: white;
-    
-}
+
 .banner-img{
     padding: 0;
 }
