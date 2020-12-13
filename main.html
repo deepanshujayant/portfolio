@@ -20,67 +20,116 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <!-- YT : https://www.youtube.com/watch?v=PwWHL3RyQgk 
-        Navbar video!
-    -->
-    <nav class="navbar navbar-expand">
-        <div class="navbar-header">
-            <a href="" class=""><img src="./Logo.png" alt="logo" style="width: 50px;"></a> 
-        </div>
-        <ul class="nav navbar-nav collapse navbar-collapse" id="navstyle">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg -top">
+        <a class="navbar-brand" href="#">
+            <img src="./Logo.png" style="width: 100px;" alt="">
+        </a>
+        <button class="navbar-toggler d-lg-none"type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+            </ul>
+            
+        </div>        
     </nav>
-
-    
     <div class="LandingSection">
         <div class="container">
             <div class="banner">
-                <div class="banner-text">
-                    <h1> Hey, I'm Deepanshu Jayant</h1>
-                    <h4>Front-end Web Developer</h4>
-                    <h2>Based in 
-                        <span style="color: salmon;">IN</span><span style="color: white;">D</span><span style="color: green;">IA</span>
-                    </h2>
-                </div>
-                <div class="banner-img">
-                    <img src="https://i.pinimg.com/originals/74/d4/0f/74d40f91a9ab95ff9a743136f84c4015.jpg" alt="">
-                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="banner-text">
+                            <h1> Hey, I'm Deepanshu Jayant</h1>
+                            <h4>Front-end Web Developer</h4>                           
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="banner-img">
+                            <img src="https://i.pinimg.com/originals/74/d4/0f/74d40f91a9ab95ff9a743136f84c4015.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="social-links fa-2x">
+                            <ul>
+                                <li id="insta">          
+                                    <a href="https://www.instagram.com/deepanshu.jayant"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li id="github">                
+                                    <a href="https://github.com/deepu97"><i class="fab fa-github-alt" aria-hidden="true"></i></a>
+                                </li>
+                                <li id="facebook">
+                                    <a href="https://www.facebook.com/deepanshujayant97"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                </li>
+                                <li id="linkedin"> 
+                                    <a href="https://www.linkedin.com/in/deepanshu-jayant-b566807a"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                                </li>
+                                <li id="twitter">
+                                    <a href="https://twitter.com/DJDeepanshu1"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>              
             </div>
-            <div class="social-links fa-2x">
-                <ul>
-                    <li id="insta">          
-                        <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="github">                
-                        <a href=""><i class="fab fa-github-alt" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="facebook">
-                        <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="linkedin"> 
-                        <a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="twitter">
-                        <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    
-                </ul>
-            </div>
+            
         </div>
         
        
     </div>
-    <div>
-        <h1>Intro Section</h1>
+
+    <div id="About" class="AboutSection">
+        <div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="aboutText">
+                        <ul>
+                            <li>a</li>
+                            <li>b</li>
+                            <li>o</li>
+                            <li>u</li>
+                            <li>t</li>
+                            <li>m</li>
+                            <li>e</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="aboutImg">
+                        <img src="https://i.pinimg.com/originals/74/d4/0f/74d40f91a9ab95ff9a743136f84c4015.jpg" alt="profilePic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="aboutInfo">
+                        <h3>
+                            Programmer, Football Fan, Car Enthusiast, Sitcoms, etc.<br>
+                            I love to design websites and prefer dynamic approach
+                            to every possible problems.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            
+           
+            
+        </div>
+        
+    </div>
+    <div id="Portfolio">
+        <h1>Portfolio Section</h1>
     </div>
     <div>
         <h1>Project Section</h1>
