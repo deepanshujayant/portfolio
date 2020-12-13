@@ -1,8 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Handlee&family=Open+Sans&display=swap');
+#fake{
+    color: black;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Caveat';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar{
@@ -17,6 +23,7 @@
     font-weight: 400;
     text-transform: uppercase;
     font-size: 23px;
+    font-family: 'Handlee';
 }
 .navbar a:hover{
     color: gold;
@@ -52,12 +59,34 @@
     }
     .navbar-nav li{
         display: inline-block;
-        float: left;
+        float: none;
     }
 }
 
 .LandingSection{
     color: white;
     background-color: black;
-  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 91%;
+    
+}
+.LandingSection h1, h4{
+    font-family: 'Handlee', cursive;
+}
+.banner{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    text-align: justify;
+}
+.banner-text{
+    padding: 0;
+    margin:  auto ;
+}
+.banner-img{
+    margin-left: auto;
+    margin-right: 0;
 }
